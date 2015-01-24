@@ -8,7 +8,7 @@ $(function(){
   });
   
   $('nav.main a[href$=".html"], .sub-content-top a, .sub-content-middle a, .sub-content-bottom a').on('click', function(e){
-    var href = $(this).attr('href');
+      var href = $(this).attr('href');
     
     if(href === '#'){
       e.stopPropagation();
@@ -76,7 +76,7 @@ $(function(){
     
     $.each(hrefs, function(i, val){
       $.ajax({
-        url: val,
+        url: '/views/' + val,
         type: 'get'
       }).done(function(html){
         $('body').append(html);

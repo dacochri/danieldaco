@@ -30,13 +30,13 @@
     <Content Include="assets\css\app.mono.css" />
     <Content Include="assets\img\bass.jpg" />
     <Content Include="assets\img\beforeafter.jpg" />
-    <Content Include="assets\img\building.JPG" />
+    <Content Include="assets\img\building.jpg" />
     <Content Include="assets\img\business.jpg" />
     <Content Include="assets\img\coffee.jpg" />
     <Content Include="assets\img\dinner.jpg" />
     <Content Include="assets\img\dinnerthmb.jpg" />
     <Content Include="assets\img\dinnerthmb2.jpg" />
-    <Content Include="assets\img\flowers.JPG" />
+    <Content Include="assets\img\flowers.jpg" />
     <Content Include="assets\img\fraticellis_edit_2.jpg" />
     <Content Include="assets\img\logo.png" />
     <Content Include="assets\img\logos.jpg" />
@@ -56,5 +56,8 @@
     <Content Include="views\index.html" />
     <Content Include="views\portfolio.html" />
     <Content Include="views\resume.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="index.php" />
   </ItemGroup>
 </Project>
