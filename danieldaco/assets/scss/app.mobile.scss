@@ -1,12 +1,12 @@
 /* *** xs *** */
-// phone portrait
+// phone
 @media only screen and (max-width: 767px){
   
 }
 
 /* *** sm *** */
-// tablet portrait
-@media only screen and (min-width: 768px) and (max-width: 991px) and (orientation: portrait){
+// tablet
+@media only screen and (min-width: 768px) and (max-width: 991px){
   body{
     font-size: 3.2rem;
   }
@@ -75,19 +75,23 @@
   }
 }
 
-// tablet landscape
-@media only screen and (min-width: 768px) and (max-width: 991px) and (orientation: landscape){
-  
-}
-
 /* *** md *** */
 // desktop
-@media only screen and (min-device-width: 992px) and (max-device-width: 1199px){
-  
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+  .left{
+    width: calc(65% - 0.5rem);
+  }
 }
 
 /* *** lg *** */
 // desktop
-@media only screen and (min-device-width: 1200px) {
-  
+@media only screen and (min-width: 1200px) and (max-width: 1700px){
+  .left{
+    width: calc(65% - 0.5rem);
+  }
+}
+
+//desktop
+@media only screen and (min-width: 1701px){
+
 }
