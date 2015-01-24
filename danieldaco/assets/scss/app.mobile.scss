@@ -1,0 +1,93 @@
+/* *** xs *** */
+// phone portrait
+@media only screen and (max-width: 767px){
+  
+}
+
+/* *** sm *** */
+// tablet portrait
+@media only screen and (min-width: 768px) and (max-width: 991px) and (orientation: portrait){
+  body{
+    font-size: 3.2rem;
+  }
+  
+  .top{
+    height: 12.5%;
+    
+    .logo{
+      top: 2.5% !important;
+    }
+    
+    .extra{
+      
+      input[type="text"]{
+        width: 20%;
+      }
+    }
+    
+    .logo, nav.main, .extra{
+      width: 100%;
+      text-align: center;
+      position: relative;
+      top: auto;
+      right: auto;
+      bottom: auto;
+      left: auto;
+    }
+  }
+  
+  .main-content{
+    height: 55vh;
+  }
+  
+  .content-list{
+    margin-bottom: 0.5rem;
+  }
+  
+  .content-list, .sub-content-top, .sub-content-middle, .sub-content-bottom{
+    height: 30vh;
+  }
+  
+  .left, .right{
+    width: 99%;
+    height: auto;
+    top: auto;
+    right: 0.5rem;
+    bottom: auto;
+    left: 0.5rem;
+  }
+  
+  .top, .left, .right{
+    position: relative;
+  }
+  
+  .content, .image-expanded{
+    position: fixed;
+    right: 1.3rem;
+    bottom: 1rem;
+    left: 1.3rem;
+    height: auto;
+    
+    .close{
+      font-size: 5rem;
+      padding: 1rem 1.5rem;
+    }
+  }
+}
+
+// tablet landscape
+@media only screen and (min-width: 768px) and (max-width: 991px) and (orientation: landscape){
+  
+}
+
+/* *** md *** */
+// desktop
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px){
+  
+}
+
+/* *** lg *** */
+// desktop
+@media only screen and (min-device-width: 1200px) {
+  
+}

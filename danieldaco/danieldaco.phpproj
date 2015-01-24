@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>danieldaco</Name>
+    <ProjectGuid>51889546-6bf4-4f47-be71-bdad6a55e391</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>danieldaco</RootNamespace>
+    <!-- important to be opened by PHP Tools, when also Phalanger Tools are installed -->
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>danieldaco</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="assets\css\" />
+    <Folder Include="assets\img\" />
+    <Folder Include="assets\js\" />
+    <Folder Include="assets\" />
+    <Folder Include="assets\scss\" />
+    <Folder Include="views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\css\app.css" />
+    <Content Include="assets\css\app.mobile.css" />
+    <Content Include="assets\css\app.mono.css" />
+    <Content Include="assets\img\bridge.jpg" />
+    <Content Include="assets\img\bridge2.jpg" />
+    <Content Include="assets\img\car.jpg" />
+    <Content Include="assets\img\path.jpg" />
+    <Content Include="assets\img\road.jpg" />
+    <Content Include="assets\img\road2.jpg" />
+    <Content Include="assets\img\road3.jpg" />
+    <Content Include="assets\js\application.js" />
+    <Content Include="assets\scss\app.mobile.scss" />
+    <Content Include="assets\scss\app.mono.scss" />
+    <Content Include="assets\scss\app.scss" />
+    <Content Include="views\about.html" />
+    <Content Include="views\contact.html" />
+    <Content Include="views\index.html" />
+    <Content Include="views\portfolio.html" />
+    <Content Include="views\resume.html" />
+  </ItemGroup>
+</Project>
