@@ -22,7 +22,9 @@
     <Folder Include="assets\js\" />
     <Folder Include="assets\" />
     <Folder Include="assets\scss\" />
+    <Folder Include="lib\" />
     <Folder Include="views\" />
+    <Folder Include="views\error\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\css\app.css" />
@@ -52,6 +54,7 @@
     <Content Include="assets\scss\app.scss" />
     <Content Include="views\about.html" />
     <Content Include="views\contact.html" />
+    <Content Include="views\error\404.html" />
     <Content Include="views\index.html" />
     <Content Include="views\portfolio.html" />
     <Content Include="views\resume.html" />
